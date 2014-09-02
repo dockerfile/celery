@@ -7,7 +7,7 @@
 # Pull base image.
 FROM dockerfile/python
 
-# Install Ansible.
+# Install Celery.
 RUN pip install celery
 
 # Define working directory.
